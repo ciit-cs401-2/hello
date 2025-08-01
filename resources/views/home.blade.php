@@ -24,9 +24,9 @@
                     @foreach ($recommended as $reco)
                     <div class="box">
                         <div>
-                            <div style="width: clamp(50px, 2vw, 200px); height: clamp(50px, 2vw, 200px); overflow: hidden; flex-shrink: 0;">
+                            <div style="width: clamp(60px, 2vw, 200px); height: clamp(60px, 2vw, 200px); overflow: hidden; flex-shrink: 0;">
                         <img src="{{ asset('images/artimages/12.png') }}" alt="Random Art"
-                            style="width: clamp(50px, 2vw, 200px); height: clamp(50px, 2vw, 200px); object-fit: cover; display: block;">
+                            style="width: clamp(60px, 2vw, 200px); height: clamp(60px, 2vw, 200px); object-fit: cover; display: block;">
                     </div>
                         </div>
                         <a href="/blogpost/{{ $reco->blogpost_id }}">{{ $reco->title }}</a>
