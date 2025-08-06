@@ -7,7 +7,7 @@
     <div class="profile-card">
         <div class="profile-header">
             <div class="profile-picture">
-                <img src="{{ $user->profile_picture }}" alt="Profile Picture">
+                <img src="{{ asset('images/1.png') }}" alt="Profile Picture">
             </div>
             <div class="profile-name">
                 <h1>{{ $user->first_name }} {{ $user->last_name }}</h1>
