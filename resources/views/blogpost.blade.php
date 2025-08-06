@@ -12,7 +12,7 @@
                 $image = request('image') ?? 'images/artimages/default.png';
                 @endphp
 
-                <img class="bimg" src="{{ asset($image) }}" alt="Blog image">
+                <img class="bimg" src="{{ asset($image) }}" onerror="this.onerror=null; this.src='{{ asset('images/artimages/8.png') }}';" alt="Blog image">
             </div>
             <div class="blog">
 
