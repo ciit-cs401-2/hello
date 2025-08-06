@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(135deg, #AA3231, #441414);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F5E6D3;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-blend-mode: overlay;
+}
+
+.profile-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #F5E6D3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.profile-name h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #F5E6D3;
+}
+
+.tagline {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: rgba(245, 230, 211, 0.75);
+}
+
+.profile-details p {
+    margin: 12px 0;
+    font-size: 1rem;
+    color: #F5E6D3;
+}
+
+.profile-details strong {
+    color: #EFDBC0;
+}
+
+.profile-footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-image {
+    max-width: 100%;
+    border-radius: 12px;
+    opacity: 0.85;
+    transition: transform 0.3s ease;
+}
+
+.footer-image:hover {
+    transform: scale(1.02);
+    opacity: 1;
+}
