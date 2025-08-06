@@ -7,11 +7,14 @@
         
         <form action="/login" method="POST" class="">
             @csrf
-            <div class="logo">
+            <div class="logo2">
                 <div class="logo-icon"></div>
                 <h1>FinOut</h1>
                 <p class="tagline">Your Daily Edge in Finance</p>
             </div>
+            <hr style="  height: 1px;  border: none;  margin-bottom: 20px;  background-image: linear-gradient(to right, transparent, #F5E6D3, transparent);
+">
+
             <div class="form-group full-width">
                 <label for="username">Username</label>
                 <input type="text" name="username">

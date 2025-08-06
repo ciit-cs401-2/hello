@@ -6,7 +6,7 @@
         
         <form action="/register" method="POST" class="">
             @csrf
-            <div class="logo">
+            <div class="logo2">
                 <div class="logo-icon"></div>
                 <h1>FinOut</h1>
                 <p class="tagline">Your Daily Edge in Finance</p>

@@ -8,7 +8,7 @@
 
         .registration-container {
             background: none;
-            margin-top: -60px;
+            margin-top: 0px;
             max-height: 100vh;
             width: 100vw;
             display: flex;
@@ -53,12 +53,13 @@
             max-width: 480px;
         }
 
-        .logo {
+        .logo2 {
             text-align: center;
             margin-bottom: 40px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            color: #F5E6D3;
         }
 
         .logo-icon {
