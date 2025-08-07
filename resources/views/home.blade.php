@@ -4,6 +4,13 @@
 
 <div class="home-content">
 
+@php
+    $files = glob(public_path('images/artimages/*.png'));
+    shuffle($files);
+    $carouselImages = array_slice($files, 0, 5); // Choose 5 random images
+@endphp
+
+
     <!-- Banner Image -->
     <div class="left-content">
         <div class="banner">

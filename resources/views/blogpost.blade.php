@@ -12,7 +12,7 @@
                     $image = request('image') ?? 'images/artimages/default.png';
                 @endphp
 
-                <img class="bimg" src="{{ asset($image) }}" alt="Blog image">
+                <img class="bimg" src="{{ asset($image) }}" onerror="this.onerror=null; this.src='{{ asset('images/artimages/8.png') }}';" alt="Blog image">
             </div>
             <div class="blog">
                 <h1 style="font-size: clamp(35px, 2.2vw, 100px); margin: 40px 0px 0px 0px; letter-spacing: 0.05em;">
