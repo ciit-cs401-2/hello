@@ -74,3 +74,44 @@
     width: 20vw;
     box-sizing: border-box;
 }
+
+
+/* Comments Section */
+.comments-section {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.comment-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comment-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.comment-avatar {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Comment Form */
+.add-comment textarea {
+    transition: border-color 0.3s ease;
+}
+
+.add-comment textarea:focus {
+    outline: none;
+    border-color: #EFDBC0;
+    box-shadow: 0 0 0 2px rgba(239, 219, 192, 0.2);
+}
+
+.add-comment button {
+    transition: background-color 0.3s ease;
+}
+
+.add-comment button:hover {
+    background-color: #e0c9a8;
+}

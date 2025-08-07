@@ -59,6 +59,8 @@ class User extends Authenticatable
         return $this->hasMany(Comments::class, 'user_id');
     }
 
+    
+
     protected $primaryKey = 'user_id';
 
 
